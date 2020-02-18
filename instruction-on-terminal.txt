@@ -1,0 +1,50 @@
+終端機說明
+
+===========
+MacOS 使用者
+===========
+
+你可以在「應用程式」中的「其他」資料夾找到「終端機」。
+
+打開後輸入 pwd 來看目前所在的資料夾。（pwd 代表的是 print working directory。）
+你應該會看到 /Users/<你的帳戶名稱>。這裡是你的主目錄。
+這裡的斜線 / 代表後一個資料夾在前一個資料夾之下。
+
+輸入 ls 指令來看你的主目錄有哪些資料夾和檔案。（ls 是 list files 的縮寫。）
+你應該會看到有個資料夾叫 Desktop。那是你的桌面。
+
+輸入 cd Desktop 進到你的桌面。（cd 是 change directory 的縮寫。）
+用 pwd 或 ls 確認這是你的桌面。
+
+怎麼回到你的主目錄？輸入 cd .. 回到上一層資料夾。（這裡的 .. 代表上一層資料夾。）
+
+現在你已經知道了：
+1. ls: 印出現有資料夾的內容
+2. cd <資料夾>: 進入 <資料夾>（如果 <資料夾> 是 .. 則代表上一層的資料夾）
+3. pwd: 印出現在資料夾的路徑
+
+你也應該要知道：
+1. mv <要移動的資料夾或檔案> <目的地的資料夾>: 移動資料夾或檔案到目的地。mv 代表 move。
+2. rm <要刪除的檔案>: 刪除檔案。rm 代表 remove。
+3. mkdir <要創造的資料夾>: 創造資料夾。mkdir 代表 make directory。
+4. rmdir <要刪除的資料夾>: 刪除資料夾。rmdir 代表 remove directory。
+
+=============
+Windows 使用者
+=============
+
+按下 Windows + X，從中找到「命令提示字元」後點擊進入終端機。
+
+各式指令基本上跟 MacOS 一樣，只是：
+1. ls 改成 dir
+2. mv 改成 move
+3. rm 改成 del
+4. 資料夾路徑中的斜線 / 改成反斜線 \
+
+=========
+參照
+=========
+
+[1]: https://wsvincent.com/terminal-command-line-for-beginners/
+[2]: https://gitbook.tw/chapters/command-line/command-line.html
+[3]: https://www.590103.idv.tw/blog/在windows-10中打開命令提示字元的10種方式#.XfJLqS9cUWo
